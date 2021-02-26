@@ -223,12 +223,12 @@
 
 			<!--<div class="container">-->
 
-				<!--&lt;!&ndash; Footer Widgets
-				============================================= &ndash;&gt;
-				<div class="footer-widgets-wrap clearfix">
+			<!--&lt;!&ndash; Footer Widgets
+            ============================================= &ndash;&gt;
+            <div class="footer-widgets-wrap clearfix">
 
 
-			<!--</div>-->
+        <!--</div>-->
 
 			<!-- Copyrights
 			============================================= -->
@@ -237,8 +237,8 @@
 				<div class="container clearfix">
 
 					<div class="col_half">
-						Copyrights &copy; 2021 All Rights Reserved by BH Global.<br>
-						<div class="copyright-links"><a href="#">개인정보 처리방침</a></div>
+						Copyrights &copy; 2017 All Rights Reserved by The Straight.<br>
+						<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
 					</div>
 
 					<div class="col_half col_last tright">
@@ -253,6 +253,31 @@
 								<i class="icon-twitter"></i>
 							</a>
 
+							<a href="#" class="social-icon si-small si-borderless si-gplus">
+								<i class="icon-gplus"></i>
+								<i class="icon-gplus"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-pinterest">
+								<i class="icon-pinterest"></i>
+								<i class="icon-pinterest"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-vimeo">
+								<i class="icon-vimeo"></i>
+								<i class="icon-vimeo"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-github">
+								<i class="icon-github"></i>
+								<i class="icon-github"></i>
+							</a>
+
+							<a href="#" class="social-icon si-small si-borderless si-yahoo">
+								<i class="icon-yahoo"></i>
+								<i class="icon-yahoo"></i>
+							</a>
+
 							<a href="#" class="social-icon si-small si-borderless si-linkedin">
 								<i class="icon-linkedin"></i>
 								<i class="icon-linkedin"></i>
@@ -261,7 +286,7 @@
 
 						<div class="clear"></div>
 
-						<i class="icon-envelope2"></i> tj822@nate.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +02-546-1333 <span class="middot">&middot;</span> <i class="icon-phone"></i> +02-3446-2444
+						<i class="icon-envelope2"></i> contact@thestraight.kr <span class="middot">&middot;</span> <i class="icon-headphones"></i> +02-116-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> CanvasOnSkype
 					</div>
 
 				</div>

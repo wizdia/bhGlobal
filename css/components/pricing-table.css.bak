@@ -20,8 +20,8 @@
 	-webkit-align-items: stretch;
 	align-items: stretch;
 	text-align: center;
-	-webkit-flex: 0 1 230px;
-	flex: 0 1 230px;
+	-webkit-flex: 0 1 130px;
+	flex: 0 1 130px;
 }
 
 .pricing--feature-list {
