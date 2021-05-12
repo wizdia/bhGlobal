@@ -493,16 +493,16 @@
 				$(document).ready(function() {
 				emailjs.init("user_PJAzgZ3gcWcY06lOhjTkd");		
         				// 초기화
-        				$('input[name=template-contactform-submit]').click(function(){       	 
+        				$('input[name=submit]').click(function(){       	 
           
           				var templateParams = {	
           				//각 요소는 설정한 템플릿과 동일한 명으로 작성!
-                			template-contactform-name : $('input[name=template-contactform-name]').val(),
-                			template-contactform-email : $('input[name=template-contactform-email]').val(), 
-                			template-contactform-phone : $('input[name=template-contactform-phone]').val(),
-				template-contactform-subject : $('input[name=template-contactform-subject]').val(),
-				template-contactform-service : $('select[name=template-contactform-service]').val(),
-                			template-contactform-message : $('textarea[name=template-contactform-message]').val()
+                			name : $('input[name=name]').val(),
+                			email : $('input[name=email]').val(), 
+                			phone : $('input[name=phone]').val(),
+				template-contactform-subject : $('input[name=subject]').val(),
+				service : $('select[name=service]').val(),
+                			message : $('textarea[name=message]').val()
            				};
                     
          				emailjs.send('service_boeyjus', 'template_245oevx', templateParams)
@@ -535,29 +535,29 @@
 
 									<div class="col_one_third">
 										<label for="template-contactform-name">이름(Name) <small>*</small></label>
-										<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
+										<input type="text" id="template-contactform-name" name="name" value="" class="sm-form-control required" />
 									</div>
 
 									<div class="col_one_third">
 										<label for="template-contactform-email">이메일(Email) <small>*</small></label>
-										<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
+										<input type="email" id="template-contactform-email" name="email" value="" class="required email sm-form-control" />
 									</div>
 
 									<div class="col_one_third col_last">
 										<label for="template-contactform-phone">전화번호(Phone)</label>
-										<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control" />
+										<input type="text" id="template-contactform-phone" name="phone" value="" class="sm-form-control" />
 									</div>
 
 									<div class="clear"></div>
 
 									<div class="col_two_third">
 										<label for="template-contactform-subject">제목(Subject) <small>*</small></label>
-										<input type="text" id="template-contactform-subject" name="template-contactform-subject" value="" class="required sm-form-control" />
+										<input type="text" id="template-contactform-subject" name="subject" value="" class="required sm-form-control" />
 									</div>
 
 									<div class="col_one_third col_last">
 										<label for="template-contactform-service">문의 카테고리(Category)</label>
-										<select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
+										<select id="template-contactform-service" name="service" class="sm-form-control">
 											<option value="">-- 선택하기 --</option>
 											<option value="서비스문의">기업서비스문의</option>
 											<option value="제휴문의">제휴문의</option>
@@ -569,7 +569,7 @@
 
 									<div class="col_full">
 										<label for="template-contactform-message">메세지(Message) <small>*</small></label>
-										<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
+										<textarea class="required sm-form-control" id="template-contactform-message" name="message" rows="6" cols="30"></textarea>
 									</div>
 
 									<div class="col_full hidden">
@@ -577,7 +577,7 @@
 									</div>
 
 									<div class="col_full" style="color: #EEE;">
-										<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">메세지보내기</button>
+										<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="submit" value="submit">메세지보내기</button>
 									</div>
 
 								</form>
